@@ -92,42 +92,6 @@ section {
   color: #444343;
   margin-bottom: 8px;
 }
-
-/* plans section styles */
-.section-title {
-  font-weight: 700;
-  font-size: 40px;
-  color: #151414;
-  text-align: center;
-}
-
-.plans-container {
-  display: flex;
-  justify-content: space-around;
-  gap: 86px;
-
-}
-
-.plans {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.plans-title {
-  font-weight: 700;
-  font-size: 30px;
-  color: #151414;
-  margin-top: 24px;
-  margin-bottom: 16px;
-}
-
-.plans-description {
-  font-weight: 500;
-  font-size: 25px;
-  color: #737272;
-
-}
-
 /* new year resolution style */
 .resolution-container {
   display: flex;
@@ -169,12 +133,50 @@ hr {
 
 .resolution img {
   height: 150px;
+  display: block;
+  margin: 0 auto;
 }
 
 .resolution-description {
   color: #737272;
   margin: 15px 0 15px 0;
 }
+
+/* plans section styles */
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  text-align: center;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 86px;
+
+}
+
+.plans {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.plans-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.plans-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+
+}
+
 
 /* positive mindset style */
 .positive-mindset {
