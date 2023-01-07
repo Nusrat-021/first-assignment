@@ -59,11 +59,11 @@ section {
 }
 
 /* failures of year section style */
-.failures-of-year {
+.failures-of-year-container {
   display: flex;
   align-items: center;
   gap: 87px;
-  width: 1072px;
+  max-width: 1072px;
 }
 
 .failures-year-info {
@@ -75,18 +75,55 @@ section {
   font-size: 40px;
   color: #151414;
 }
+
 /* icon color change */
-.fa-solid{
-  color:green;
+.fa-solid {
+  color: green;
   margin-right: 10px;
 }
+
 .failures-year-description {
   color: #444343;
   margin-top: 24px;
   margin-bottom: 16px;
 }
-.failures-year-point{
+
+.failures-year-point {
   color: #444343;
   margin-bottom: 8px;
 }
 
+/* plans section styles */
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  text-align: center;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 86px;
+
+}
+
+.plans {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.plans-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.plans-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+
+}
