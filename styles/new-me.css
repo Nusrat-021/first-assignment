@@ -127,32 +127,38 @@ section {
   color: #737272;
 
 }
+
 /* new year resolution style */
-.resolution-container{
+.resolution-container {
   display: flex;
   justify-content: space-around;
-  gap:30px;
+  gap: 30px;
 }
-.resolution{
+
+.resolution {
   margin-top: 50px;
   background-color: white;
   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
   padding: 20px;
   border-radius: 10px;
 }
-.resolution:hover{
+
+.resolution:hover {
   background-color: rgb(253, 233, 205);
 }
-.resolution-number{
+
+.resolution-number {
   font-weight: 800;
   font-size: 40px;
   color: #151414;
 }
-hr{
-  border-top:5px solid #F15B22;
+
+hr {
+  border-top: 5px solid #F15B22;
   width: 30%;
 }
-.resolution-title{
+
+.resolution-title {
   font-weight: 700;
   font-size: 25px;
   color: #151414;
@@ -160,10 +166,48 @@ hr{
   margin-bottom: 20px;
   text-align: center;
 }
-.resolution img{
+
+.resolution img {
   height: 150px;
 }
-.resolution-description{
+
+.resolution-description {
   color: #737272;
   margin: 15px 0 15px 0;
 }
+
+/* positive mindset style */
+.positive-mindset {
+  background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+
+
+}
+
+.positive-mindset-info {
+  padding: 60px;
+  width:50%;
+}
+
+.positive-mindset-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.btn-second{
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #F15B22;
+  border: 0;
+  background: white;
+  border-radius: 5px;
+  padding: 20px 25px;
+}
+
+/* footer design */
